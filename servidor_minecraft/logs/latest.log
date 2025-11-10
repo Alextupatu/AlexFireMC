@@ -1,0 +1,1047 @@
+[05:14:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:14:59] [ServerMain/INFO]: Loaded 7 recipes
+[05:14:59] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[05:14:59] [Server thread/INFO]: Loading properties
+[05:14:59] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[05:15:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:15:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:15:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[05:15:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[05:15:00] [Server thread/INFO]: Default game type: SURVIVAL
+[05:15:00] [Server thread/INFO]: Generating keypair
+[05:15:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:15:00] [Server thread/INFO]: Using epoll channel type
+[05:15:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:15:00] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[05:15:00] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:229) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
+	... 9 more
+[05:15:01] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Essentials-1.1.10.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.7
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:380) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:15:01] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loading 1 libraries... please wait
+[05:15:01] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/4.3.1/jedis-4.3.1.pom
+[05:15:01] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[05:15:01] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[05:15:01] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[05:15:01] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.pom
+[05:15:01] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
+[05:15:01] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0-M1/junit-bom-5.8.0-M1.pom
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/json/json/20220320/json-20220320.pom
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
+[05:15:02] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/json/json/20220320/json-20220320.jar
+[05:15:02] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[05:15:02] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[05:15:02] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[05:15:02] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/json/json/20220320/json-20220320.jar
+[05:15:02] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[05:15:02] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldguard-bukkit-7.0.12-dist.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:380) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:15:02] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[05:15:04] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[05:15:04] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[05:15:04] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.23
+[05:15:04] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
+[05:15:04] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.3
+[05:15:04] [Server thread/INFO]: [PowerRanks] Loading server plugin PowerRanks v1.10.9R2
+[05:15:04] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
+[05:15:04] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.1.0
+[05:15:04] [Server thread/INFO]: [ItemEditor] Detected Minecraft version 1.20.1
+[05:15:04] [Server thread/WARN]: [ItemEditor] [!!!] ItemEditor is not compatible with this version of Minecraft. To use ItemEditor with Minecraft 1.20.1, please download a previous build from https://www.spigotmc.org/resources/item-editor-2.27637/.
+[05:15:04] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v5.2
+[05:15:04] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.2
+[05:15:04] [Server thread/INFO]: [EpicRename] Loading server plugin EpicRename v3.12.1
+[05:15:04] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[05:15:04] [Server thread/INFO]: [EssentialsWarpGUI] Loading server plugin EssentialsWarpGUI v3.1
+[05:15:04] [Server thread/INFO]: [UberEnchant] Loading server plugin UberEnchant v8.11.7
+[05:15:04] [Server thread/INFO]: [AnimatedScoreboard] Loading server plugin AnimatedScoreboard v0.3.7
+[05:15:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:15:04] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[05:15:04] [Server thread/INFO]:         __    
+[05:15:04] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[05:15:04] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[05:15:04] [Server thread/INFO]: 
+[05:15:04] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[05:15:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:15:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:15:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:15:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1790ms)
+[05:15:05] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[05:15:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[05:15:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[05:15:06] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[05:15:06] [Server thread/INFO]: [PowerRanks] Enabling PowerRanks v1.10.9R2
+[05:15:06] [Server thread/INFO]: [PowerRanks] 
+[05:15:06] [Server thread/INFO]: [PowerRanks] === ------- LOADING CONFIGURATION ------ ===
+[05:15:06] [Server thread/INFO]: [PowerRanks] Loading config file
+[05:15:06] [Server thread/INFO]: [PowerRanks] Loading language file
+[05:15:06] [Server thread/INFO]: [PowerRanks] Loading usertags file
+[05:15:06] [Server thread/INFO]: [PowerRanks] Loading tablist file
+[05:15:06] [Server thread/INFO]: [PowerRanks] 
+[05:15:06] [Server thread/INFO]: [PowerRanks] === ---------- LOADING ADDONS ---------- ===
+[05:15:06] [Server thread/INFO]: [PowerRanks] Loaded 0 add-on(s)!
+[05:15:06] [Server thread/INFO]: [PowerRanks] 
+[05:15:06] [Server thread/INFO]: [PowerRanks] === ----------- LOADING DATA ----------- ===
+[05:15:06] [Server thread/INFO]: [PowerRanks] Loading player & rank data
+[05:15:06] [Server thread/INFO]: [PowerRanks] 
+[05:15:06] [Server thread/INFO]: [PowerRanks] === ------- LOADING PLUGIN HOOKS ------- ===
+[05:15:06] [Server thread/INFO]: [PowerRanks] Checking for plugins to hook in to:
+[05:15:06] [Server thread/INFO]: [PowerRanks] Vault found!
+[05:15:06] [Server thread/INFO]: [PowerRanks] Enabling Vault Economy integration.
+[05:15:06] [Server thread/INFO]: [PowerRanks] Enabling Vault Permission integration.
+[05:15:06] [Server thread/INFO]: [PowerRanks] Enabling Vault Permission integration (experimental).
+[05:15:06] [Server thread/INFO]: [PowerRanks] PlaceholderAPI found!
+[05:15:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: powerranks [1.10.9R2]
+[05:15:06] [Server thread/INFO]: [PowerRanks] NametagEdit found!
+[05:15:06] [Server thread/INFO]: [PowerRanks] 
+[05:15:06] [Server thread/INFO]: [PowerRanks] §b  ██████  ██████ §a  PowerRanks v1.10.9R2
+[05:15:06] [Server thread/INFO]: [PowerRanks] §b  ██   ██ ██   ██§a  Running on Paper v196
+[05:15:06] [Server thread/INFO]: [PowerRanks] §b  ██████  ██████ §a  Startup time: 843ms
+[05:15:06] [Server thread/INFO]: [PowerRanks] §b  ██      ██   ██§a  Loaded 6 ranks and 3 players (YAML) 
+[05:15:06] [Server thread/INFO]: [PowerRanks] §b  ██      ██   ██§c  
+[05:15:06] [Server thread/INFO]: [PowerRanks] 
+[05:15:06] [Server thread/INFO]: [PowerRanks] If you'd like to donate, please visit https://ko-fi.com/svenar
+[05:15:06] [Server thread/INFO]: [PowerRanks] Checking for updates...
+[05:15:07] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
+[05:15:07] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[05:15:07] [Server thread/INFO]: [XConomy] Language: ENGLISH
+[05:15:07] [Server thread/INFO]: [XConomy] Saving method - SQLite
+[05:15:07] [Server thread/INFO]: [XConomy] SQLite successfully connected
+[05:15:07] [Server thread/INFO]: [XConomy] XConomy successfully enabled
+[05:15:07] [Server thread/INFO]: [XConomy] Found PlaceholderAPI
+[05:15:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
+[05:15:07] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
+[05:15:07] [Server thread/INFO]: [XConomy] ===== YiC =====
+[05:15:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:15:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:15:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:15:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:15:07] [Server thread/INFO]: Preparing level "world"
+[05:15:07] [Folia Async Scheduler Thread #0/INFO]: [XConomy] Is the latest version
+[05:15:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:15:07] [Server thread/INFO]: Time elapsed: 178 ms
+[05:15:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:15:07] [Server thread/INFO]: Time elapsed: 72 ms
+[05:15:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:15:08] [Server thread/INFO]: Time elapsed: 95 ms
+[05:15:08] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[05:15:08] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:15:08] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
+[05:15:08] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_20_R1
+[05:15:08] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[05:15:08] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
+[05:15:08] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.20.1-R0.1
+[05:15:08] [Server thread/INFO]: [voicechat] Compatibility version 18
+[05:15:08] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[05:15:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.35]
+[05:15:08] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[05:15:08] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.3
+[05:15:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.3]
+[05:15:09] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.3
+[05:15:09] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[05:15:09] [Server thread/INFO]: There is a new version available. (1.20.1)
+[05:15:09] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
+[05:15:09] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.1.0
+[05:15:09] [Server thread/INFO]: [ItemEditor] Reloading items.
+[05:15:09] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[05:15:09] [Server thread/INFO]: [ItemEditor] Enabled PlaceholderAPI support.
+[05:15:09] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v5.2
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.2
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 0.0 to 5.0...
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.enforceaccess to world.enforce-access
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted world.enforce-access to boolean false
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.prefixchat to messaging.enable-chat-prefix
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted messaging.enable-chat-prefix to boolean false
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.prefixchatformat to messaging.chat-prefix-format
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.teleportintercept to world.teleport-intercept
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted world.teleport-intercept to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.firstspawnoverride to spawn.first-spawn-override
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted spawn.first-spawn-override to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.displaypermerrors to misc.debug-permissions
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.globaldebug to misc.global-debug
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted misc.global-debug to integer 0
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.silentstart to misc.silent-start
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted misc.silent-start to boolean false
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.firstspawnworld to spawn.first-spawn-location
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.defaultportalsearch to portal.use-custom-portal-search
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted portal.use-custom-portal-search to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Inverted portal.use-custom-portal-search to boolean false
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.portalsearchradius to portal.custom-portal-search-radius
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted portal.custom-portal-search-radius to integer 128
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.autopurge to world.auto-purge-entities
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted world.auto-purge-entities to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path multiverse-configuration.idonotwanttodonate to misc.show-donation-message
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted misc.show-donation-message to boolean false
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Inverted misc.show-donation-message to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Set command.show-legacy-aliases to true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 5.0 to 5.1...
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path world.teleport-intercept to teleport.teleport-intercept
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 5.1 to 5.2...
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 0.0 to 1.0...
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path adjustSpawn to adjust-spawn
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted adjust-spawn to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path allowFlight to allow-flight
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted allow-flight to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path allowWeather to allow-weather
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted allow-weather to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path autoHeal to auto-heal
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted auto-heal to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path autoLoad to auto-load
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted auto-load to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path bedRespawn to bed-respawn
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted bed-respawn to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path entryfee.amount to entry-fee.amount
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted entry-fee.amount to double 0.0
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Deleted entryfee
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path gameMode to gamemode
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted generator to 
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted hidden to boolean false
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted hunger to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path keepSpawnInMemory to keep-spawn-in-memory
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted keep-spawn-in-memory to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path playerLimit to player-limit
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted player-limit to integer -1
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path portalForm to portal-form
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted pvp to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path respawnWorld to respawn-world
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted scale to double 1.0
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted seed to long -2683106228664783538
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path spawnLocation to spawn-location
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.spawn to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals.spawnrate to spawning.animals.tick-rate
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.tick-rate to integer -1
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.spawn to boolean true
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters.spawnrate to spawning.monsters.tick-rate
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.tick-rate to integer -1
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path worldBlacklist to world-blacklist
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Entry fee currency: 
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.0 to 1.1...
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.1 to 1.2...
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals to spawning.animal
+[05:15:09] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters to spawning.monster
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 0.0 to 1.0...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path adjustSpawn to adjust-spawn
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted adjust-spawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path allowFlight to allow-flight
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted allow-flight to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path allowWeather to allow-weather
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted allow-weather to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path autoHeal to auto-heal
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted auto-heal to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path autoLoad to auto-load
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted auto-load to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path bedRespawn to bed-respawn
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted bed-respawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path entryfee.amount to entry-fee.amount
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted entry-fee.amount to double 0.0
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Deleted entryfee
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path gameMode to gamemode
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted generator to 
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted hidden to boolean false
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted hunger to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path keepSpawnInMemory to keep-spawn-in-memory
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted keep-spawn-in-memory to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path playerLimit to player-limit
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted player-limit to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path portalForm to portal-form
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted pvp to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path respawnWorld to respawn-world
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted scale to double 1.0
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted seed to long 967664998804867668
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawnLocation to spawn-location
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.spawn to boolean false
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals.spawnrate to spawning.animals.tick-rate
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.tick-rate to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.spawn to boolean false
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters.spawnrate to spawning.monsters.tick-rate
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.tick-rate to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path worldBlacklist to world-blacklist
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Entry fee currency: 
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.0 to 1.1...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.1 to 1.2...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals to spawning.animal
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters to spawning.monster
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 0.0 to 1.0...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path adjustSpawn to adjust-spawn
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted adjust-spawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path allowFlight to allow-flight
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted allow-flight to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path allowWeather to allow-weather
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted allow-weather to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path autoHeal to auto-heal
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted auto-heal to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path autoLoad to auto-load
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted auto-load to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path bedRespawn to bed-respawn
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted bed-respawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path entryfee.amount to entry-fee.amount
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted entry-fee.amount to double 0.0
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Deleted entryfee
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path gameMode to gamemode
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted generator to 
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted hidden to boolean false
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted hunger to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path keepSpawnInMemory to keep-spawn-in-memory
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted keep-spawn-in-memory to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path playerLimit to player-limit
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted player-limit to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path portalForm to portal-form
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted pvp to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path respawnWorld to respawn-world
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted scale to double 16.0
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted seed to long 967664998804867668
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawnLocation to spawn-location
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.spawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals.spawnrate to spawning.animals.tick-rate
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.tick-rate to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.spawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters.spawnrate to spawning.monsters.tick-rate
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.tick-rate to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path worldBlacklist to world-blacklist
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Entry fee currency: 
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.0 to 1.1...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.1 to 1.2...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals to spawning.animal
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters to spawning.monster
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 0.0 to 1.0...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path adjustSpawn to adjust-spawn
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted adjust-spawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path allowFlight to allow-flight
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted allow-flight to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path allowWeather to allow-weather
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted allow-weather to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path autoHeal to auto-heal
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted auto-heal to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path autoLoad to auto-load
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted auto-load to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path bedRespawn to bed-respawn
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted bed-respawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path entryfee.amount to entry-fee.amount
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted entry-fee.amount to double 0.0
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Deleted entryfee
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path gameMode to gamemode
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted generator to 
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted hidden to boolean false
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted hunger to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path keepSpawnInMemory to keep-spawn-in-memory
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted keep-spawn-in-memory to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path playerLimit to player-limit
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted player-limit to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path portalForm to portal-form
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted pvp to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path respawnWorld to respawn-world
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted scale to double 8.0
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted seed to long 967664998804867668
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawnLocation to spawn-location
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.spawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals.spawnrate to spawning.animals.tick-rate
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.tick-rate to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.spawn to boolean true
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters.spawnrate to spawning.monsters.tick-rate
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.tick-rate to integer -1
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path worldBlacklist to world-blacklist
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Entry fee currency: 
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.0 to 1.1...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.1 to 1.2...
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals to spawning.animal
+[05:15:10] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters to spawning.monster
+[05:15:10] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[05:15:10] [Server thread/INFO]: Time elapsed: 358 ms
+[05:15:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.1.2]
+[05:15:11] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[05:15:11] [Server thread/INFO]: [Multiverse-Core] Version 5.1.2 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[05:15:11] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[05:15:11] [Server thread/INFO]: [EpicRename] Enabling EpicRename v3.12.1
+[05:15:11] [Server thread/INFO]: [EpicRename] [CheckServerVersion] Server running 1.16-1.20.4. EpicRename will stop supporting these versions in the future. Hex color code support has been enabled.
+[05:15:11] [Server thread/INFO]: [EpicRename] Version: 3.12.1 MC Version: ONE_DOT_SIXTEEN_OR_NEWER
+[05:15:11] [Server thread/INFO]: [EpicRename] This plugin is Copyright (c) 2022 Justin "JustBru00" Brubaker. This plugin is licensed under the MPL v2.0. You can view a copy of the MPL v2.0 license at: http://bit.ly/2eMknxx
+[05:15:11] [Server thread/INFO]: [EpicRename] Starting to enable plugin...
+[05:15:11] [Server thread/INFO]: [EpicRename] [WARN] The config.yml file version is incorrect. EpicRename v3.12.1 expects a config.yml version of 13. Attempting to add missing values to the config file.
+[05:15:11] [Server thread/INFO]: [EpicRename] [ConfigUpdater] Added convert_legacy_glowing_to_modern_glowing to config.yml.
+[05:15:11] [Server thread/INFO]: [EpicRename] Prefix set to: '[EpicRename] '
+[05:15:11] [Server thread/INFO]: [EpicRename] Plugin Enabled!
+[05:15:11] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[05:15:11] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[05:15:11] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[05:15:11] [Server thread/INFO]: [LoginSecurity] Applying database upgrade 4: Add name index
+[05:15:11] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[05:15:11] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[05:15:11] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[05:15:11] [Server thread/INFO]: [EssentialsWarpGUI] Enabling EssentialsWarpGUI v3.1
+[05:15:11] [Server thread/WARN]: [EssentialsWarpGUI] Could not find a valid provider!
+[05:15:11] [Server thread/WARN]: [EssentialsWarpGUI] Make sure that you have either of the following plugins installed: EssentialsX, Essentials
+[05:15:11] [Server thread/WARN]: [EssentialsWarpGUI] Shutting down plugin...
+[05:15:11] [Server thread/INFO]: [EssentialsWarpGUI] Disabling EssentialsWarpGUI v3.1
+[05:15:11] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.11.7
+[05:15:11] [Server thread/ERROR]: Error occurred while enabling UberEnchant v8.11.7 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.enchantments.Enchantment: method 'void <init>()' not found
+	at me.sciguymjm.uberenchant.api.UberEnchantment.<init>(UberEnchantment.java:31) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.api.UberEnchantment.<init>(UberEnchantment.java:44) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.api.UberEnchantment.<init>(UberEnchantment.java:53) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.abstraction.EffectEnchantment.<init>(EffectEnchantment.java:49) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.abstraction.ArmorEffectEnchantment.<init>(ArmorEffectEnchantment.java:13) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.abstraction.BootsEffectEnchantment.<init>(BootsEffectEnchantment.java:9) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.effects.armor.boots.SpeedEnchantment.<init>(SpeedEnchantment.java:9) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.abstraction.EffectEnchantment.init(EffectEnchantment.java:132) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.UberEnchant.onEnable(UberEnchant.java:58) ~[UberEnchant.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:15:11] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.11.7
+[05:15:11] [Server thread/INFO]: [AnimatedScoreboard] Enabling AnimatedScoreboard v0.3.7
+[05:15:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: animatedscoreboard [0.0.1]
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:15:12] [Server thread/INFO]: Running delayed init tasks
+[05:15:12] [Craft Scheduler Thread - 1 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] Checking for an update!
+[05:15:12] [Server thread/INFO]: [PowerRanks] Vault compatible economy plugin found! (XConomy)
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.7) is available at:
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[05:15:12] [Server thread/INFO]: Done (13.044s)! For help, type "help"
+[05:15:12] [Server thread/INFO]: Timings Reset
+[05:15:12] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[05:15:12] [Server thread/INFO]: [voicechat] Loading plugins
+[05:15:12] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[05:15:12] [Server thread/INFO]: [voicechat] Initializing plugins
+[05:15:12] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[05:15:12] [Craft Scheduler Thread - 1 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] No new versions found for the plugin!
+[05:15:12] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[05:15:12] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 57214
+[05:15:12] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
+[05:15:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[05:15:12] [Server thread/INFO]: 6 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[05:15:19] [User Authenticator #0/INFO]: UUID of player Alextu2323 is 5cd00433-4317-372f-ad43-d3d58ef7d2ce
+[05:15:19] [Server thread/INFO]: Alextu2323 joined the game
+[05:15:19] [Server thread/INFO]: Alextu2323[/127.13.48.178:40907] logged in with entity id 93 at ([spawn]41.91040200468053, 10.5, -4.433651122708058)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/ERROR]: [AnimatedScoreboard] PlaceholderAPI caused an error while parsing line "&7» &f&x&B&F&3&E&0&0&lR&x&C&F&5&4&0&B&la&x&D&E&6&B&1&6&ln&x&E&E&8&1&2&1&lg&x&F&D&9&7&2&C&lo: &f%vault_rankprefix%" for Alextu2323. This is not an issue with AnimatedScoreboard and should instead be fixed by the maintainer of the placeholder pack you are trying to use.
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.World.getName()" because "world" is null
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at Vault.jar//net.milkbowl.vault.chat.Chat.getGroupPrefix(Chat.java:246)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at at.helpch.placeholderapi.expansion.vault.PermissionHook.getGroupMeta(PermissionHook.java:41)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at at.helpch.placeholderapi.expansion.vault.PermissionHook.lambda$onRequest$1(PermissionHook.java:145)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at java.base/java.util.Optional.map(Optional.java:260)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at at.helpch.placeholderapi.expansion.vault.PermissionHook.onRequest(PermissionHook.java:145)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:72)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at PlaceholderAPI-2.11.6.jar//me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at PlaceholderAPI-2.11.6.jar//me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at PlaceholderAPI-2.11.6.jar//me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.core.PlaceholderHandler.replacePlaceholderAPI(PlaceholderHandler.java:67)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.core.PlaceholderHandler.replaceBoth(PlaceholderHandler.java:61)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.core.PlaceholderHandler.replacePlaceholdersThrows(PlaceholderHandler.java:37)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.PlayerScoreboardLine.update(PlayerScoreboardLine.java:125)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.PlayerScoreboard.forceUpdate(PlayerScoreboard.java:152)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.PlayerScoreboard.registerTeams(PlayerScoreboard.java:196)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.PlayerScoreboard.setState(PlayerScoreboard.java:180)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.impl.PacketImplementation.initialize(PacketImplementation.java:103)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.PlayerScoreboard.initialize(PlayerScoreboard.java:174)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.ScoreboardPlayer.tickScoreboards(ScoreboardPlayer.java:432)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.core.PlayerScoreboardHandler.lambda$init$2(PlayerScoreboardHandler.java:204)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[05:15:19] [Craft Scheduler Thread - 4 - AnimatedScoreboard/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[05:15:34] [Server thread/INFO]: Alextu2323 issued server command: /gamemode creative
+[05:15:34] [Server thread/INFO]: [Alextu2323: Set own game mode to Creative Mode]
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/ERROR]: [AnimatedScoreboard] PlaceholderAPI caused an error while parsing line "&7» &f&x&B&F&3&E&0&0&lR&x&C&F&5&4&0&B&la&x&D&E&6&B&1&6&ln&x&E&E&8&1&2&1&lg&x&F&D&9&7&2&C&lo: &f%vault_rankprefix%" for Alextu2323. This is not an issue with AnimatedScoreboard and should instead be fixed by the maintainer of the placeholder pack you are trying to use.
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.World.getName()" because "world" is null
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at Vault.jar//net.milkbowl.vault.chat.Chat.getGroupPrefix(Chat.java:246)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at at.helpch.placeholderapi.expansion.vault.PermissionHook.getGroupMeta(PermissionHook.java:41)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at at.helpch.placeholderapi.expansion.vault.PermissionHook.lambda$onRequest$1(PermissionHook.java:145)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at java.base/java.util.Optional.map(Optional.java:260)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at at.helpch.placeholderapi.expansion.vault.PermissionHook.onRequest(PermissionHook.java:145)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:72)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at PlaceholderAPI-2.11.6.jar//me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at PlaceholderAPI-2.11.6.jar//me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at PlaceholderAPI-2.11.6.jar//me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.core.PlaceholderHandler.replacePlaceholderAPI(PlaceholderHandler.java:67)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.core.PlaceholderHandler.replaceBoth(PlaceholderHandler.java:61)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.core.PlaceholderHandler.replacePlaceholdersThrows(PlaceholderHandler.java:37)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.PlayerScoreboardLine.update(PlayerScoreboardLine.java:125)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.PlayerScoreboard.update(PlayerScoreboard.java:99)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.objects.ScoreboardPlayer.tickScoreboards(ScoreboardPlayer.java:448)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at AnimatedScoreboard.jar//me.jasperjh.animatedscoreboard.core.PlayerScoreboardHandler.lambda$init$2(PlayerScoreboardHandler.java:204)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[05:15:59] [Craft Scheduler Thread - 8 - AnimatedScoreboard/ERROR]: [AnimatedScoreboard] Because the placeholder(s) in this line have exceeded the maximum number of exceptions AnimatedScoreboard will not attempt to load the placeholders anymore!
+[05:16:03] [Server thread/INFO]: Alextu2323 issued server command: /reload
+[05:16:03] [Server thread/INFO]: Alextu2323: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[05:16:13] [Server thread/INFO]: Alextu2323 issued server command: /reload confirm
+[05:16:13] [Server thread/INFO]: Alextu2323: Please note that this command is not supported and may cause issues when using some plugins.
+[05:16:13] [Server thread/INFO]: Alextu2323: If you encounter any issues please use the /stop command to restart your server.
+[05:16:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:16:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:16:13] [Server thread/INFO]: [AnimatedScoreboard] Disabling AnimatedScoreboard v0.3.7
+[05:16:13] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[05:16:13] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[05:16:13] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[05:16:13] [Server thread/INFO]: [EpicRename] Disabling EpicRename v3.12.1
+[05:16:13] [Server thread/INFO]: [EpicRename] Plugin Disabled.
+[05:16:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.1.2
+[05:16:13] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v5.2
+[05:16:13] [Server thread/INFO]: [ItemEditor] Disabling ItemEditor v2.1.0
+[05:16:13] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
+[05:16:13] [Server thread/INFO]: [XConomy] XConomy successfully disabled
+[05:16:13] [Server thread/INFO]: [PowerRanks] Disabling PowerRanks v1.10.9R2
+[05:16:13] [Server thread/INFO]: [PowerRanks] Disabled PowerRanks v1.10.9R2
+[05:16:13] [Server thread/INFO]: [PlayerKits2] Disabling PlayerKits2 v1.18.3
+[05:16:13] [Server thread/INFO]: [PlayerKits²] Has been disabled! Version: 1.18.3
+[05:16:13] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.35
+[05:16:13] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.23
+[05:16:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[05:16:13] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[05:16:13] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[05:16:13] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[05:16:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[05:16:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:16:13] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:16:13] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:16:14] [Server thread/INFO]: Loaded 7 recipes
+[05:16:14] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1095) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:229) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
+	... 31 more
+[05:16:14] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Essentials-1.1.10.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.7
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:380) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1095) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:16:14] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loading 1 libraries... please wait
+[05:16:14] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[05:16:14] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[05:16:14] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[05:16:14] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/json/json/20220320/json-20220320.jar
+[05:16:14] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[05:16:14] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldguard-bukkit-7.0.12-dist.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:380) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1095) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:16:14] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[05:16:15] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[05:16:15] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[05:16:15] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.23
+[05:16:15] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
+[05:16:15] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.3
+[05:16:15] [Server thread/INFO]: [PowerRanks] Loading server plugin PowerRanks v1.10.9R2
+[05:16:15] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
+[05:16:15] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.1.0
+[05:16:15] [Server thread/INFO]: [ItemEditor] Detected Minecraft version 1.20.1
+[05:16:15] [Server thread/WARN]: [ItemEditor] [!!!] ItemEditor is not compatible with this version of Minecraft. To use ItemEditor with Minecraft 1.20.1, please download a previous build from https://www.spigotmc.org/resources/item-editor-2.27637/.
+[05:16:15] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v5.2
+[05:16:15] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.2
+[05:16:15] [Server thread/INFO]: [EpicRename] Loading server plugin EpicRename v3.12.1
+[05:16:15] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[05:16:15] [Server thread/INFO]: [EssentialsWarpGUI] Loading server plugin EssentialsWarpGUI v3.1
+[05:16:15] [Server thread/INFO]: [UberEnchant] Loading server plugin UberEnchant v8.11.7
+[05:16:15] [Server thread/INFO]: [AnimatedScoreboard] Loading server plugin AnimatedScoreboard v0.3.7
+[05:16:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:16:15] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[05:16:15] [Server thread/INFO]:         __    
+[05:16:15] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[05:16:15] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[05:16:15] [Server thread/INFO]: 
+[05:16:15] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[05:16:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:16:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:16:16] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:16:16] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1368ms)
+[05:16:16] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[05:16:16] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[05:16:16] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[05:16:16] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[05:16:16] [Server thread/INFO]: [PowerRanks] Enabling PowerRanks v1.10.9R2
+[05:16:16] [Server thread/INFO]: [PowerRanks] 
+[05:16:16] [Server thread/INFO]: [PowerRanks] === ------- LOADING CONFIGURATION ------ ===
+[05:16:16] [Server thread/INFO]: [PowerRanks] Loading config file
+[05:16:16] [Server thread/INFO]: [PowerRanks] Loading language file
+[05:16:16] [Server thread/INFO]: [PowerRanks] Loading usertags file
+[05:16:16] [Server thread/INFO]: [PowerRanks] Loading tablist file
+[05:16:16] [Server thread/INFO]: [PowerRanks] 
+[05:16:16] [Server thread/INFO]: [PowerRanks] === ---------- LOADING ADDONS ---------- ===
+[05:16:16] [Server thread/INFO]: [PowerRanks] Loaded 0 add-on(s)!
+[05:16:16] [Server thread/INFO]: [PowerRanks] 
+[05:16:16] [Server thread/INFO]: [PowerRanks] === ----------- LOADING DATA ----------- ===
+[05:16:16] [Server thread/INFO]: [PowerRanks] Loading player & rank data
+[05:16:17] [Server thread/ERROR]: Error occurred while enabling PowerRanks v1.10.9R2 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "nl.svenar.powerranks.bukkit.data.TablistManager.updateSorting(org.bukkit.entity.Player)" because the return value of "nl.svenar.powerranks.bukkit.PowerRanks.getTablistManager()" is null
+	at nl.svenar.powerranks.bukkit.events.OnJoin.handleJoin(OnJoin.java:81) ~[PowerRanks.jar:?]
+	at nl.svenar.powerranks.bukkit.cache.CacheManager.load(CacheManager.java:154) ~[PowerRanks.jar:?]
+	at nl.svenar.powerranks.bukkit.PowerRanks.onEnable(PowerRanks.java:204) ~[PowerRanks.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1096) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:16:17] [Server thread/INFO]: [PowerRanks] Disabling PowerRanks v1.10.9R2
+[05:16:17] [Server thread/INFO]: [PowerRanks] Disabled PowerRanks v1.10.9R2
+[05:16:17] [luckperms-worker-9/WARN]: [LuckPerms] Thread luckperms-worker-9 threw an uncaught exception
+java.lang.RuntimeException: java.lang.IllegalStateException: zip file closed
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.lambda$static$0(GeneratedEventClass.java:69) ~[?:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[?:?]
+	at me.lucko.luckperms.common.cache.LoadingMap.get(LoadingMap.java:67) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.generate(GeneratedEventClass.java:80) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.preGenerate(GeneratedEventClass.java:88) ~[?:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:839) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:518) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:473) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:130) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SpigotPluginClassLoaderGroup.lookupClass(SpigotPluginClassLoaderGroup.java:43) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SimpleListPluginClassLoaderGroup.getClassByName(SimpleListPluginClassLoaderGroup.java:37) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.LockingClassLoaderGroup.getClassByName(LockingClassLoaderGroup.java:34) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:173) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:579) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at me.lucko.luckperms.lib.bytebuddy.dynamic.loading.ClassLoadingStrategy$Default$WrappingDispatcher.load(ClassLoadingStrategy.java:358) ~[?:?]
+	at me.lucko.luckperms.lib.bytebuddy.dynamic.loading.ClassLoadingStrategy$Default.load(ClassLoadingStrategy.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.bytebuddy.dynamic.TypeResolutionStrategy$Passive.initialize(TypeResolutionStrategy.java:100) ~[?:?]
+	at me.lucko.luckperms.lib.bytebuddy.dynamic.DynamicType$Default$Unloaded.load(DynamicType.java:6292) ~[?:?]
+	at me.lucko.luckperms.lib.bytebuddy.dynamic.DynamicType$Default$Unloaded.load(DynamicType.java:6281) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.<init>(GeneratedEventClass.java:142) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.lambda$static$0(GeneratedEventClass.java:67) ~[?:?]
+	... 10 more
+[05:16:17] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
+[05:16:17] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[05:16:17] [Server thread/INFO]: [XConomy] Language: ENGLISH
+[05:16:17] [Server thread/INFO]: [XConomy] Saving method - SQLite
+[05:16:17] [Server thread/INFO]: [XConomy] SQLite successfully connected
+[05:16:17] [Server thread/INFO]: [XConomy] XConomy successfully enabled
+[05:16:17] [Server thread/INFO]: [XConomy] Found PlaceholderAPI
+[05:16:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
+[05:16:17] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
+[05:16:17] [Server thread/INFO]: [XConomy] ===== YiC =====
+[05:16:17] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[05:16:17] [Folia Async Scheduler Thread #3/INFO]: [XConomy] Is the latest version
+[05:16:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:16:17] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
+[05:16:17] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_20_R1
+[05:16:17] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[05:16:17] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
+[05:16:17] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.20.1-R0.1
+[05:16:17] [Server thread/INFO]: [voicechat] Compatibility version 18
+[05:16:17] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[05:16:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.35]
+[05:16:17] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[05:16:17] [Server thread/ERROR]: [voicechat] Simple Voice Chat does not support reloads! Expect that things will break!
+[05:16:17] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.3
+[05:16:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.3]
+[05:16:17] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.3
+[05:16:17] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[05:16:17] [Server thread/INFO]: There is a new version available. (1.20.1)
+[05:16:17] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
+[05:16:17] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.1.0
+[05:16:17] [Server thread/INFO]: [ItemEditor] Reloading items.
+[05:16:17] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[05:16:17] [Server thread/INFO]: [ItemEditor] Enabled PlaceholderAPI support.
+[05:16:17] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v5.2
+[05:16:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.2
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.1.2]
+[05:16:18] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[05:16:18] [Server thread/INFO]: [Multiverse-Core] Version 5.1.2 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[05:16:18] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[05:16:18] [Server thread/INFO]: [EpicRename] Enabling EpicRename v3.12.1
+[05:16:18] [Server thread/INFO]: [EpicRename] [CheckServerVersion] Server running 1.16-1.20.4. EpicRename will stop supporting these versions in the future. Hex color code support has been enabled.
+[05:16:18] [Server thread/INFO]: [EpicRename] Version: 3.12.1 MC Version: ONE_DOT_SIXTEEN_OR_NEWER
+[05:16:18] [Server thread/INFO]: [EpicRename] This plugin is Copyright (c) 2022 Justin "JustBru00" Brubaker. This plugin is licensed under the MPL v2.0. You can view a copy of the MPL v2.0 license at: http://bit.ly/2eMknxx
+[05:16:18] [Server thread/INFO]: [EpicRename] Starting to enable plugin...
+[05:16:18] [Server thread/INFO]: [EpicRename] Prefix set to: '[EpicRename] '
+[05:16:18] [Server thread/INFO]: [EpicRename] Plugin Enabled!
+[05:16:18] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[05:16:18] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[05:16:18] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[05:16:18] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[05:16:18] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[05:16:18] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[05:16:18] [Server thread/INFO]: [EssentialsWarpGUI] Enabling EssentialsWarpGUI v3.1
+[05:16:18] [Server thread/WARN]: [EssentialsWarpGUI] Could not find a valid provider!
+[05:16:18] [Server thread/WARN]: [EssentialsWarpGUI] Make sure that you have either of the following plugins installed: EssentialsX, Essentials
+[05:16:18] [Server thread/WARN]: [EssentialsWarpGUI] Shutting down plugin...
+[05:16:18] [Server thread/INFO]: [EssentialsWarpGUI] Disabling EssentialsWarpGUI v3.1
+[05:16:18] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.11.7
+[05:16:18] [Server thread/ERROR]: Error occurred while enabling UberEnchant v8.11.7 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.enchantments.Enchantment: method 'void <init>()' not found
+	at me.sciguymjm.uberenchant.api.UberEnchantment.<init>(UberEnchantment.java:31) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.api.UberEnchantment.<init>(UberEnchantment.java:44) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.api.UberEnchantment.<init>(UberEnchantment.java:53) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.abstraction.EffectEnchantment.<init>(EffectEnchantment.java:49) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.abstraction.ArmorEffectEnchantment.<init>(ArmorEffectEnchantment.java:13) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.abstraction.BootsEffectEnchantment.<init>(BootsEffectEnchantment.java:9) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.effects.armor.boots.SpeedEnchantment.<init>(SpeedEnchantment.java:9) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.enchantments.abstraction.EffectEnchantment.init(EffectEnchantment.java:132) ~[UberEnchant.jar:?]
+	at me.sciguymjm.uberenchant.UberEnchant.onEnable(UberEnchant.java:58) ~[UberEnchant.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1097) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:16:18] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.11.7
+[05:16:18] [Server thread/INFO]: [AnimatedScoreboard] Enabling AnimatedScoreboard v0.3.7
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: animatedscoreboard [0.0.1]
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:16:18] [Server thread/INFO]: Alextu2323: Reload complete.
+[05:16:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5065ms or 101 ticks behind
+[05:16:18] [Server thread/INFO]: Timings Reset
+[05:16:18] [Craft Scheduler Thread - 7 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] Checking for an update!
+[05:16:18] [Server thread/WARN]: [LuckPerms] Player Alextu2323 already has a custom permissible (nl.svenar.powerranks.bukkit.data.PowerPermissibleBase)!
+This is probably because you have multiple permission plugins installed.
+Please make sure that LuckPerms is the only permission plugin installed on your server!
+(unless you're performing a migration, in which case, just remember to remove your old permission plugin once you're done!)
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.7) is available at:
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[05:16:18] [Craft Scheduler Thread - 7 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] No new versions found for the plugin!
+[05:16:18] [Server thread/INFO]: [voicechat] Loading plugins
+[05:16:18] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[05:16:18] [Server thread/INFO]: [voicechat] Initializing plugins
+[05:16:18] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[05:16:18] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[05:16:18] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 57214
+[05:16:18] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
+[05:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[05:16:18] [Server thread/INFO]: 6 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[05:16:18] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
+[05:18:00] [Server thread/INFO]: Alextu2323 lost connection: Disconnected
+[05:18:00] [Server thread/INFO]: [voicechat] Disconnecting client Alextu2323
+[05:18:00] [Server thread/INFO]: Alextu2323 left the game
+[05:18:03] [User Authenticator #1/INFO]: UUID of player Alextu2323 is 5cd00433-4317-372f-ad43-d3d58ef7d2ce
+[05:18:03] [Server thread/INFO]: Alextu2323 joined the game
+[05:18:03] [Server thread/INFO]: Alextu2323[/127.163.168.187:41669] logged in with entity id 184 at ([spawn]33.43024122102383, 10.0, 8.33216042326171)
+[05:18:13] [Server thread/INFO]: Alextu2323 issued server command: /gamemode creative
+[05:18:13] [Server thread/INFO]: [Alextu2323: Set own game mode to Creative Mode]
+[05:18:23] [Server thread/INFO]: Alextu2323 issued server command: /kit
+[05:18:26] [Server thread/ERROR]: Could not pass event InventoryClickEvent to ItemEditor v2.1.0
+java.lang.IncompatibleClassChangeError: Found class org.bukkit.inventory.InventoryView, but interface was expected
+	at at.dumphey.itemeditor.ui.UiManager.onInventoryClick(UiManager.java:20) ~[ItemEditor.jar:?]
+	at at.dumphey.itemeditor.events.InventoryClickListener.onClick(InventoryClickListener.java:17) ~[ItemEditor.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor152.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3237) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1424) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:18:44] [Server thread/INFO]: Alextu2323 issued server command: /plugins
+[05:19:05] [Server thread/INFO]: Alextu2323 issued server command: /version Essentials
+[05:27:24] [Server thread/INFO]: Alextu2323 issued server command: /version PowerRanks
+[05:31:12] [Server thread/INFO]: Alextu2323 issued server command: /version UberEnchant
+[05:32:01] [Server thread/INFO]: Alextu2323 issued server command: /version UberEnchant
+[05:36:13] [Server thread/INFO]: Alextu2323 issued server command: /version WorldEdit
+[05:39:32] [Server thread/INFO]: Alextu2323 issued server command: /stop
+[05:39:32] [Server thread/INFO]: [Alextu2323: Stopping the server]
+[05:39:32] [Server thread/INFO]: Stopping server
+[05:39:32] [Server thread/INFO]: [AnimatedScoreboard] Disabling AnimatedScoreboard v0.3.7
+[05:39:32] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[05:39:32] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[05:39:32] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[05:39:32] [Server thread/INFO]: [EpicRename] Disabling EpicRename v3.12.1
+[05:39:32] [Server thread/INFO]: [EpicRename] Plugin Disabled.
+[05:39:32] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.1.2
+[05:39:32] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v5.2
+[05:39:32] [Server thread/INFO]: [ItemEditor] Disabling ItemEditor v2.1.0
+[05:39:32] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
+[05:39:32] [Server thread/INFO]: [XConomy] XConomy successfully disabled
+[05:39:32] [Server thread/INFO]: [PlayerKits2] Disabling PlayerKits2 v1.18.3
+[05:39:32] [Server thread/INFO]: [PlayerKits²] Has been disabled! Version: 1.18.3
+[05:39:32] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.35
+[05:39:32] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.23
+[05:39:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[05:39:32] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[05:39:32] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[05:39:32] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[05:39:32] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[05:39:32] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:39:32] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:39:33] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:39:33] [Server thread/INFO]: Saving players
+[05:39:33] [Server thread/INFO]: Alextu2323 lost connection: Server closed
+[05:39:33] [Server thread/INFO]: Alextu2323 left the game
+[05:39:33] [Server thread/INFO]: Saving worlds
+[05:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 16 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[05:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 13 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[05:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[05:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[05:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 1231 block chunks, 40 entity chunks, 4 poi chunks in world 'spawn' in 0.46s
+[05:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[05:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:39:33] [Server thread/INFO]: Flushing Chunk IO
+[05:39:33] [Server thread/INFO]: Closing Thread Pool
+[05:39:33] [Server thread/INFO]: Closing Server

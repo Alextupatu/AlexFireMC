@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 152.206.141.206
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1760478842967
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760827484435
+  login: 1760825558871
+  kits:
+    firework: 0
+money: '40000000'
+logoutlocation:
+  world: e54d57bf-98df-4633-b736-4ae17a2713a8
+  world-name: spawn
+  x: 30.66916159973489
+  y: 17.37555668265823
+  z: 15.440744924016345
+  yaw: -115.005859375
+  pitch: 29.526947021484375
+last-account-name: Alextu2323
+lastlocation:
+  world: e54d57bf-98df-4633-b736-4ae17a2713a8
+  world-name: spawn
+  x: 40.11775442429224
+  y: 21.5
+  z: -52.67415769890395
+  yaw: -1.0610575675964355
+  pitch: 1.745864987373352

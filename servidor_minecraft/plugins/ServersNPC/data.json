@@ -1,0 +1,185 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjA4NTk2MzM2NywKICAicHJvZmlsZUlkIiA6ICI4ODFhZTU0ZmY2NDY0N2IwYjM5NzBiODQ5Y2RmNzZiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWZWd1ZXR0YTc3NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZDU4OTZmZWYwMzlkMmZkYWQ1OWRlZDU0NzkxMmEzNDQ1ODA4NGFmYjVlMjg5NDgwNjBiM2VkZGUxMjU1OGM0IgogICAgfQogIH0KfQ==",
+    "signature": "pZ86FEarbwnqNGl8CNnXVn1kPs66vKWuvs9NyJ3s+CrWA0PcIw+NZlC4vt4FOm2NOKbMxqLHMqDdgs41bAPKX7m6MjU6ROqNn+hjEjEuqmDTLst/RdHnxUkMNYptvlV1aj2M/FFr71vkJDHeOxpDizUUO3q/ltntZ/N/BWr5Aj1YWFTfxx4vD9tKfDxcaIh9pR8AuV/GQ3XK2ohi0qn7TeooJxTlgdKWp9qtUKnPh9TObaxCZYl8slUM/r4NMwMFR8EHmqyRtZ9wszaLvtMrvvSrxDdKe2NsJit9B0w0czW+FREyG1yk9/F5nuQdLgwXhJhXvv/RLrGaGYB+aAG+uJbUOZvZThwclXkXp7tP5EAe8g/+5RtpcvVwu1N9E654rwk7IP8IgJrzg7rnil0vB8jwaRD7w7/UGWhsW3kqH/LbNkzaCdG9xSsKljopaqRoZMzrOEbRX1MnOFNVgmRiWMIc9U5P127QCZkiZC8gxCsBwp7EB6001r8YXCwkro+LJogDS9eWjins2yva02ahpCm7a/JbKjPQsHUtRB0XgiHZCNJFZ1QEX4mbGQV/J+sxdPOy422IDjw4daf1zVIzjTGjya2baysGi7jvqZ8/MMi3ayKu+wC0V/abP9LErNAg5YP9QYvTKce1WmyU2JmoW5QQIn3Bu5TrqYp6l2HmDeo=",
+    "skinName": "Veguetta777",
+    "location": {
+      "world": "spawn",
+      "x": 33.5,
+      "y": 10.5,
+      "z": 10.5,
+      "yaw": -179.50684,
+      "pitch": 0.20748687
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&eClick para tp",
+      "&2Survival 1.20"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "Warp survival",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "Warp survival",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp survival",
+        "delay": 0
+      }
+    ],
+    "bukkitAttributes": {},
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTkzNjU5NTUxMSwKICAicHJvZmlsZUlkIiA6ICJiNzZmYmU0MzMzMGY0ODJkOThmMmQ1YjEyN2QxYTc0OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaWx2aW9HYW1lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMzFlODYyMzk3NTQwMjRkNjkxYjkzZmM5ZTM1MGM3OGNlNjUzNzY1ZDhkNTkwMjY3M2I2OTA5MjA4MWQ5ZGRiIgogICAgfQogIH0KfQ==",
+    "signature": "KIUHvlLzrJpJH4FLEJWYQkz3EoYVMN4JqGtXtxQdwW30Rja4Lm6CEmjqcbk7BTQnqyHXQ3mV+1rdZWsDXlhl5L4vsjsl5gt4sjNts/5wtRIsoM5EDu8j4VrvZZi+8gG76P8ghY4LGmGNDi7q1M7Mw498rTxqppJqh3htn+Hhdf7NusnzCbGdTvmgnuFAYQZ0ZVohQAGAR+IjzjKfdLxwMx8ScxRZXEiJPWPHFPB560LAayp2QUl2+HldDA+pkQyD+0raYGk5F2+hAL7adqNAtzDJxtCs00uceCnILB0AK5J+6Lc2x/vCWBqDgHO7t7FQrROhZSXOqGKjxGDVlK01cizDYOGdo0MQjL+GgVge6Lh1wB7/scjgxOge2HoLJBpxWJBU4I2ZiaLM7QP/v+VymbhmssVrnzh1jBu/Hl+iK9lu83wpmiTLKZLf+IkvGeL5nn24cubRa2nxfi+nxtkblMW+RzXGFg4Ms0ylN5nrWewjHXQWgPsCFcrmOXkF8wqhbs1AH9wQThJJn5pjbE3tAHWJGdOfxzb5O4K1vyUy4O/chRCxD4vZXUhbt7rh8ikTIfdDb8Jj2m+r2HetS7x2Fxiv56CUv8VytJKnPHZzoWi9q5FApIACGEorrF1/7RHIEiIbv4y0mdOlIAj9k8izoP70GeeMEYEjpjjlZmI2p5g=",
+    "skinName": "silviogamer",
+    "location": {
+      "world": "world",
+      "x": -239.5,
+      "y": 64.0,
+      "z": 282.5,
+      "yaw": 179.82672,
+      "pitch": -0.6755158
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&eClick para tp",
+      "&b Spawn"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp spawn",
+        "delay": 0
+      }
+    ],
+    "bukkitAttributes": {},
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 3,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTk4MDA4MzM5MSwKICAicHJvZmlsZUlkIiA6ICIyMjBlZTExMzc3NDU0YzA0OTdlMDIzNDU4YzIyMWE3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JpY3JhZnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVlYjk5M2ZhNzVlMWVmNjZjZGI0MzJjNDg0ODUwZThlMWIzMmFmMDcyOTMwMTRlMDY2NjViYTBhYzMyYTNhZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=",
+    "signature": "WIAb53Hyzm875E2GmJVw6LUmSfYIHh7DYJjpZ3FRGfYdenj/nOTEaHs2mflBFAHJWH384NDO5/13MujkQrJiix1t3gYKfipZDwrDz9prplmZMNbXRb6M0DYPJePdcHfi93DwtFF0HWsyMQ7AclPXOYCML+o/cmTkdeWsCRBjt8CFo+iEC5OnB/TUpMV3cgeA7QortlNko+F/MEnQkfhd6nSz9x6ozW65+s9vLttBzDoXQqZixY4FGhjhu7zZt79pYaKSzOKGnhxEBmjGwjJAQX1t02H15IwpNPFYomsqMGgPXL4ApvN3LHf773n6oPFcRE2+uGTIFhyBmVC9fihKaccidNYUI9GKgu0UdRk7xNV/ek972H8FBbhuY1iU7dPJh0uAFXOiLuYg2EC/M0xiY+gvnf/Ea4BJ2GUMYuTY4xIPmM3Vdk4MM067CTMtJaFXqjE3D2QEQnauWdK0/asGuozGdJSrQX/d2iMUwFGH0nt5N1oh1O8BoPbdnDhvMOSOc0Ok2mlaSHNkjUoZJErLSENSsrpE3UWPx3ke6VbBaL/MGUhCFyt49EAQdCEikPGKd+0HBSmlu8rBIXO4q8WjutQL95+Ze9gKopNcO83FIoDg2v3AEkKdkNAhSvCDcw3WWPnEyrjtbsRB9Yz/J5svviBpIXSn9g4bQCIywZ9ddMc=",
+    "skinName": "Bobicraft",
+    "location": {
+      "world": "world",
+      "x": -239.5,
+      "y": 64.0,
+      "z": 262.5,
+      "yaw": 0.48376465,
+      "pitch": -1.9499651
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&eClick para tp",
+      "&bTP Random"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "rtp player %player_name%",
+        "delay": 0
+      },
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "rtp player %player_name%",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "gamemode survival",
+        "delay": 0
+      },
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "rtp player",
+        "delay": 0
+      },
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "rtp",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "rtp player",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "rtp player %player_name&",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "rtp player %player_name%",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "rtp",
+        "delay": 0
+      },
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "tpr player %player_name%",
+        "delay": 0
+      },
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "tpr player %player_name%",
+        "delay": 0
+      },
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "tprandom player %player_name%",
+        "delay": 0
+      },
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "tprandom player %player_name%",
+        "delay": 0
+      }
+    ],
+    "bukkitAttributes": {},
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  }
+]

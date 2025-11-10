@@ -1,0 +1,80 @@
+Moderator:
+  permissions: []
+  inheritances: []
+  weight: 50
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#9d1dff,#e22581]MODERATOR[/gradient]'
+  default: false
+Owner:
+  permissions: []
+  inheritances: []
+  weight: 100
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '&2&l✔&4&lowner'
+  default: false
+'&2&l✔&4&lowner':
+  permissions: []
+  inheritances: []
+  weight: 0
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: ''
+  default: false
+usuario:
+  permissions:
+  - name: playerkits.kit.Usuario
+    value: true
+  inheritances: []
+  weight: 0
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7usuario&r]'
+  default: false
+Admin:
+  permissions: []
+  inheritances: []
+  weight: 75
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#ffff00,#ef3300]ADMIN[/gradient]'
+  default: false
+Member:
+  permissions: []
+  inheritances: []
+  weight: 0
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#127e00,#3eaf18]MEMBER[/gradient]'
+  default: true

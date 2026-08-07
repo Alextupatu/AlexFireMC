@@ -1,0 +1,712 @@
+[18:02:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:02:08] [ServerMain/INFO]: Loaded 7 recipes
+[18:02:08] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:02:08] [Server thread/INFO]: Loading properties
+[18:02:09] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[18:02:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:02:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:02:09] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[18:02:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:02:10] [Server thread/INFO]: Default game type: SURVIVAL
+[18:02:10] [Server thread/INFO]: Generating keypair
+[18:02:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:02:10] [Server thread/INFO]: Using epoll channel type
+[18:02:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:02:10] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loading 1 libraries... please wait
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/json/json/20220320/json-20220320.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loading 2 libraries... please wait
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/mongodb/mongodb-driver-sync/4.8.1/mongodb-driver-sync-4.8.1.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/mongodb/bson/4.8.1/bson-4.8.1.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/mongodb/mongodb-driver-core/4.8.1/mongodb-driver-core-4.8.1.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/mongodb/bson-record-codec/4.8.1/bson-record-codec-4.8.1.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/org/json/json/20220320/json-20220320.jar
+[18:02:11] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library /workspaces/AlexFireMC/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[18:02:11] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[18:02:12] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:02:12] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[18:02:12] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[18:02:12] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@586c52ae]
+[18:02:12] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.2
+[18:02:12] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[18:02:12] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+43-9f57b3e
+[18:02:12] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.23
+[18:02:12] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.8
+[18:02:12] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
+[18:02:12] [Server thread/INFO]: [Denizen] Loading server plugin Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[18:02:12] [Server thread/INFO]: [PowerRanks] Loading server plugin PowerRanks v1.10.9R2
+[18:02:12] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
+[18:02:12] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+43-9f57b3e
+[18:02:12] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
+[18:02:12] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[18:02:12] [Server thread/INFO]: [AdvancedPortals] Loading server plugin AdvancedPortals v2.8.0
+[18:02:12] [Server thread/INFO]: [EpicRename] Loading server plugin EpicRename v3.12.1
+[18:02:12] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v5.2
+[18:02:12] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.1.0
+[18:02:12] [Server thread/INFO]: [ItemEditor] Detected Minecraft version 1.20.1
+[18:02:12] [Server thread/WARN]: [ItemEditor] [!!!] ItemEditor is not compatible with this version of Minecraft. To use ItemEditor with Minecraft 1.20.1, please download a previous build from https://www.spigotmc.org/resources/item-editor-2.27637/.
+[18:02:12] [Server thread/INFO]: [UberEnchant] Loading server plugin UberEnchant v8.12.0
+[18:02:12] [Server thread/INFO]: [AnimatedScoreboard] Loading server plugin AnimatedScoreboard v0.3.7
+[18:02:12] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.3
+[18:02:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:02:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[18:02:13] [Server thread/INFO]:         __    
+[18:02:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[18:02:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:02:13] [Server thread/INFO]: 
+[18:02:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:02:13] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:02:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:02:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:02:14] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1750ms)
+[18:02:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:02:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:02:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:02:14] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:02:14] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:02:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[18:02:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:02:15] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:02:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[18:02:16] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
+[18:02:16] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[18:02:16] [Server thread/INFO]: [XConomy] Language: ENGLISH
+[18:02:16] [Server thread/INFO]: [XConomy] Saving method - SQLite
+[18:02:16] [Server thread/INFO]: [XConomy] SQLite successfully connected
+[18:02:16] [Server thread/INFO]: [XConomy] XConomy successfully enabled
+[18:02:16] [Server thread/INFO]: [XConomy] Found PlaceholderAPI
+[18:02:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
+[18:02:16] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
+[18:02:16] [Server thread/INFO]: [XConomy] ===== YiC =====
+[18:02:16] [Server thread/INFO]: [PowerRanks] Enabling PowerRanks v1.10.9R2
+[18:02:16] [Folia Async Scheduler Thread #0/INFO]: [XConomy] Is the latest version
+[18:02:16] [Server thread/INFO]: [PowerRanks] 
+[18:02:16] [Server thread/INFO]: [PowerRanks] === ------- LOADING CONFIGURATION ------ ===
+[18:02:16] [Server thread/INFO]: [PowerRanks] Loading config file
+[18:02:16] [Server thread/INFO]: [PowerRanks] Loading language file
+[18:02:17] [Server thread/INFO]: [PowerRanks] Loading usertags file
+[18:02:17] [Server thread/INFO]: [PowerRanks] Loading tablist file
+[18:02:17] [Server thread/INFO]: [PowerRanks] 
+[18:02:17] [Server thread/INFO]: [PowerRanks] === ---------- LOADING ADDONS ---------- ===
+[18:02:17] [Server thread/INFO]: [PowerRanks] Loaded 0 add-on(s)!
+[18:02:17] [Server thread/INFO]: [PowerRanks] 
+[18:02:17] [Server thread/INFO]: [PowerRanks] === ----------- LOADING DATA ----------- ===
+[18:02:17] [Server thread/INFO]: [PowerRanks] Loading player & rank data
+[18:02:17] [Server thread/INFO]: [PowerRanks] 
+[18:02:17] [Server thread/INFO]: [PowerRanks] === ------- LOADING PLUGIN HOOKS ------- ===
+[18:02:17] [Server thread/INFO]: [PowerRanks] Checking for plugins to hook in to:
+[18:02:17] [Server thread/INFO]: [PowerRanks] Vault found!
+[18:02:17] [Server thread/INFO]: [PowerRanks] Enabling Vault Economy integration.
+[18:02:17] [Server thread/INFO]: [PowerRanks] Enabling Vault Permission integration.
+[18:02:17] [Server thread/INFO]: [PowerRanks] Enabling Vault Permission integration (experimental).
+[18:02:17] [Server thread/INFO]: [PowerRanks] Vault compatible economy plugin found! (XConomy)
+[18:02:17] [Server thread/INFO]: [PowerRanks] PlaceholderAPI found!
+[18:02:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: powerranks [1.10.9R2]
+[18:02:17] [Server thread/INFO]: [PowerRanks] NametagEdit found!
+[18:02:17] [Server thread/INFO]: [PowerRanks] 
+[18:02:17] [Server thread/INFO]: [PowerRanks] §b  ██████  ██████ §a  PowerRanks v1.10.9R2
+[18:02:17] [Server thread/INFO]: [PowerRanks] §b  ██   ██ ██   ██§a  Running on Paper v196
+[18:02:17] [Server thread/INFO]: [PowerRanks] §b  ██████  ██████ §a  Startup time: 707ms
+[18:02:17] [Server thread/INFO]: [PowerRanks] §b  ██      ██   ██§a  Loaded 6 ranks and 3 players (YAML) 
+[18:02:17] [Server thread/INFO]: [PowerRanks] §b  ██      ██   ██§c  
+[18:02:17] [Server thread/INFO]: [PowerRanks] 
+[18:02:17] [Server thread/INFO]: [PowerRanks] If you'd like to donate, please visit https://ko-fi.com/svenar
+[18:02:17] [Server thread/INFO]: [PowerRanks] Checking for updates...
+[18:02:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:02:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:02:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:02:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:02:17] [Server thread/INFO]: Preparing level "world"
+[18:02:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:02:19] [Server thread/INFO]: Time elapsed: 377 ms
+[18:02:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:02:19] [Server thread/INFO]: Time elapsed: 82 ms
+[18:02:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:02:19] [Server thread/INFO]: Time elapsed: 37 ms
+[18:02:19] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[18:02:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:02:21] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.2
+[18:02:23] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[18:02:23] [Server thread/INFO]: Time elapsed: 397 ms
+[18:02:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.1.2]
+[18:02:24] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[18:02:24] [Server thread/INFO]: [Multiverse-Core] Version 5.1.2 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[18:02:24] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[18:02:24] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:02:24] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[18:02:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[18:02:24] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:02:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+43-9f57b3e
+[18:02:25] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:02:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:02:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[18:02:25] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[18:02:26] [Server thread/INFO]: [Essentials] Loaded 45989 items from items.json.
+[18:02:26] [Server thread/INFO]: [Essentials] Using locale en
+[18:02:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:02:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:02:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:02:26] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:02:26] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
+[18:02:26] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_20_R1
+[18:02:26] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[18:02:26] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.8
+[18:02:26] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[18:02:26] [Server thread/INFO]: [BetterRTP] Loading Overrides...
+[18:02:26] [Server thread/INFO]: [BetterRTP] Loading World Types...
+[18:02:26] [Server thread/INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
+[18:02:26] [Server thread/INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
+[18:02:26] [Server thread/INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
+[18:02:26] [Server thread/INFO]: [BetterRTP] Loading Defaults...
+[18:02:26] [Server thread/INFO]: [BetterRTP] Loading Custom Worlds...
+[18:02:26] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+[18:02:26] [Server thread/INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+[18:02:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.8]
+[18:02:26] [Server thread/INFO]: [Denizen] Enabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[18:02:26] [Server thread/INFO]: +> [DenizenCore] Initializing Denizen Core v1.91.0-SNAPSHOT (Build 1355), impl for Spigot v1.2.8-SNAPSHOT (build 1795-REL) 
+[18:02:27] [Server thread/INFO]: +> [Denizen] Running on java version: 17.0.18 
+[18:02:27] [Server thread/INFO]: +> [Denizen] Running on fully supported Java 17. 
+[18:02:27] [Server thread/WARN]: [Denizen] Citizens does not seem to be available! Denizen will have reduced functionality!
+[18:02:27] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[18:02:27] [Server thread/INFO]: +> [Denizen]  Denizen  scriptable minecraft 
+[18:02:27] [Server thread/INFO]: +> [Denizen]  
+[18:02:27] [Server thread/INFO]: +> [Denizen] by: The DenizenScript team 
+[18:02:27] [Server thread/INFO]: +> [Denizen] Chat with us at: https://discord.gg/Q6pZGSR 
+[18:02:27] [Server thread/INFO]: +> [Denizen] Or learn more at: https://denizenscript.com 
+[18:02:27] [Server thread/INFO]: +> [Denizen] version: 1.2.8-SNAPSHOT (build 1795-REL) 
+[18:02:27] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[18:02:28] [Server thread/INFO]: +> [PaperModule] Loading Paper support module... 
+[18:02:29] [Server thread/INFO]: +> [Denizen] Loaded 147 core commands and 28 core object types, at 2171ms from start. 
+[18:02:29] [Server thread/INFO]: +> [ScriptRegistry] Loading 2 script files... 
+[18:02:29] [Server thread/INFO]: +> [DenizenCore] Scripts loaded! File load took 6ms, processing 17ms. 
+[18:02:29] [Server thread/INFO]: +> [Denizen] Final full init took 2255ms. 
+[18:02:29] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
+[18:02:29] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.20.1-R0.1
+[18:02:29] [Server thread/INFO]: [voicechat] Compatibility version 18
+[18:02:29] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[18:02:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.35]
+[18:02:29] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[18:02:29] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+43-9f57b3e
+[18:02:29] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[18:02:29] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
+[18:02:29] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[18:02:29] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[18:02:29] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
+[18:02:29] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[18:02:29] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:02:29] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:02:29] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:02:29] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:02:29] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[18:02:29] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v2.8.0
+[18:02:29] [Server thread/INFO]: [AdvancedPortals] Loading Advanced Portals Core v2.8.0 for MC: 1.20.1
+[18:02:29] [Server thread/INFO]: [AdvancedPortals] Advanced portals have been enabled!
+[18:02:29] [Server thread/INFO]: [EpicRename] Enabling EpicRename v3.12.1
+[18:02:29] [Server thread/INFO]: [EpicRename] [CheckServerVersion] Server running 1.16-1.20.4. EpicRename will stop supporting these versions in the future. Hex color code support has been enabled.
+[18:02:30] [Server thread/INFO]: [EpicRename] Version: 3.12.1 MC Version: ONE_DOT_SIXTEEN_OR_NEWER
+[18:02:30] [Server thread/INFO]: [EpicRename] This plugin is Copyright (c) 2022 Justin "JustBru00" Brubaker. This plugin is licensed under the MPL v2.0. You can view a copy of the MPL v2.0 license at: http://bit.ly/2eMknxx
+[18:02:30] [Server thread/INFO]: [EpicRename] Starting to enable plugin...
+[18:02:30] [Server thread/INFO]: [EpicRename] Prefix set to: '[EpicRename] '
+[18:02:30] [Server thread/INFO]: [EpicRename] Plugin Enabled!
+[18:02:30] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v5.2
+[18:02:30] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.1.0
+[18:02:30] [Server thread/INFO]: [ItemEditor] Reloading items.
+[18:02:30] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[18:02:30] [Server thread/INFO]: [ItemEditor] Enabled PlaceholderAPI support.
+[18:02:30] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.12.0
+[18:02:30] [Server thread/INFO]: [UberEnchant] Updated translations in locale/en_us.properties!
+[18:02:30] [Server thread/INFO]: [AnimatedScoreboard] Enabling AnimatedScoreboard v0.3.7
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: animatedscoreboard [0.0.1]
+[18:02:30] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.3
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.3]
+[18:02:30] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.3
+[18:02:30] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[18:02:30] [Server thread/INFO]: There is a new version available. (1.23.3)
+[18:02:30] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:02:30] [Server thread/INFO]: Running delayed init tasks
+[18:02:30] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:02:30] [Craft Scheduler Thread - 4 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] Checking for an update!
+[18:02:30] [Craft Scheduler Thread - 7 - BetterRTP/INFO]: [BetterRTP] Database COOLDOWN:world configured and loaded!
+[18:02:30] [Craft Scheduler Thread - 7 - BetterRTP/INFO]: [BetterRTP] Database COOLDOWN:world_nether configured and loaded!
+[18:02:30] [Craft Scheduler Thread - 7 - BetterRTP/INFO]: [BetterRTP] Database COOLDOWN:world_the_end configured and loaded!
+[18:02:30] [Craft Scheduler Thread - 7 - BetterRTP/INFO]: [BetterRTP] Database COOLDOWN:spawn configured and loaded!
+[18:02:30] [Craft Scheduler Thread - 8 - BetterRTP/INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+[18:02:30] [Craft Scheduler Thread - 6 - BetterRTP/INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+[18:02:30] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:02:30] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:02:30] [Craft Scheduler Thread - 1 - BetterRTP/INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+[18:02:30] [Craft Scheduler Thread - 4 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] You are 2 versions behind! Get AnimatedScoreboard(v0.3.9) at:
+[18:02:30] [Craft Scheduler Thread - 4 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] https://www.spigotmc.org/resources/20848
+[18:02:30] [Server thread/INFO]: [UberEnchant] ======================================================
+[18:02:30] [Server thread/INFO]: [UberEnchant] ||  Custom enchantment table mechanics are enabled  ||
+[18:02:30] [Server thread/INFO]: [UberEnchant] ||  Custom anvil mechanics are enabled              ||
+[18:02:30] [Server thread/INFO]: [UberEnchant] ||  Found 38 vanilla enchantments.                  ||
+[18:02:30] [Server thread/INFO]: [UberEnchant] ||  Loaded: 0 default UberEnchantments.             ||
+[18:02:30] [Server thread/INFO]: [UberEnchant] ||  Loaded: 0 UberEnchantments.                     ||
+[18:02:30] [Server thread/INFO]: [UberEnchant] ||  Total Enchantments: 38                          ||
+[18:02:30] [Server thread/INFO]: [UberEnchant] ======================================================
+[18:02:30] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[18:02:30] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' while executing command 'GAMEMODE' in file 'scripts/SurvivalLogic.dsc' on line '11'!
+                 Error Message: Unknown command 'GAMEMODE'. 
+[18:02:30] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled tag <&a> with '', and cached result. 
+[18:02:30] [Server thread/INFO]: +> [ScriptEvent] Processed 2 script event paths. 
+[18:02:30] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[18:02:30] [Server thread/INFO]: +> [Denizen] Denizen fully loaded at: 2026/08/07 18:02:26 
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[18:02:30] [Server thread/INFO]: 6 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.12.3) is available at:
+[18:02:30] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[18:02:30] [Server thread/INFO]: Done (22.019s)! For help, type "help"
+[18:02:30] [Server thread/INFO]: Timings Reset
+[18:02:30] [Server thread/INFO]: [voicechat] Loading plugins
+[18:02:30] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[18:02:30] [Server thread/INFO]: [voicechat] Initializing plugins
+[18:02:30] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[18:02:30] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:02:31] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 57214
+[18:02:31] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 87 EssentialsX dev build(s) out of date!
+[18:02:31] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[18:02:31] [Craft Scheduler Thread - 0 - BetterRTP/INFO]: [BetterRTP] Attempting to queue up some more safe locations...
+[18:02:32] [Server thread/WARN]: [BetterRTP] Seems like the world `spawn` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- spawn: NETHER`
+[18:03:06] [User Authenticator #0/INFO]: UUID of player Alextu2323 is 5cd00433-4317-372f-ad43-d3d58ef7d2ce
+[18:03:06] [Server thread/INFO]: Running script event 'PlayerJoins', event='on player joins' for script 'FORZARSPAWNALENTRAR' 
+[18:03:06] [Server thread/INFO]: Starting InstantQueue 'FORZARSPAWNALENTRAR_0_OvalOkay' with player 'Alextu2323'... 
+[18:03:06] [Server thread/INFO]: +- Queue 'FORZARSPAWNALENTRAR_0_OvalOkay' Executing: (line 5) wait 1s ---------+ 
+[18:03:06] [Server thread/INFO]: +> Executing 'WAIT': delay='d@1s (1s)'  mode='DELTA'   
+[18:03:06] [Server thread/INFO]: Forcing queue 'FORZARSPAWNALENTRAR_0_OvalOkay' into a timed queue... 
+[18:03:06] [Server thread/INFO]: Alextu2323 joined the game
+[18:03:06] [Server thread/INFO]: Alextu2323[/127.124.247.220:40517] logged in with entity id 118 at ([spawn]34.29630897763171, 10.0, 40.32951518906641)
+[18:03:07] [Server thread/INFO]: +- Queue 'FORZARSPAWNALENTRAR_0_OvalOkay' Executing: (line 6) execute as_server "spawn <player.name>" ---------+ 
+[18:03:07] [Server thread/INFO]: Filled tag <player.name> with 'Alextu2323'. 
+[18:03:07] [Server thread/INFO]: +> Executing 'EXECUTE': type='AS_SERVER'  command='spawn Alextu2323'  silent='false'   
+[18:03:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /spawn Alextu2323
+[18:03:07] [Server thread/INFO]: Teleporting...
+[18:03:07] [Server thread/INFO]: Completing queue 'FORZARSPAWNALENTRAR_0_OvalOkay' in 1144ms. 
+[18:03:31] [Craft Scheduler Thread - 11 - BetterRTP/INFO]: [BetterRTP] Max attempts to create a Queue reached for default_spawn (amount: 0)
+[18:03:31] [Craft Scheduler Thread - 11 - BetterRTP/INFO]: [BetterRTP] Queueing paused, max queue limit reached!
+[18:03:42] [Server thread/INFO]: Alextu2323 issued server command: /gamemode creative
+[18:03:48] [Server thread/INFO]: Alextu2323 issued server command: /plugins
+[18:04:56] [Server thread/INFO]: Alextu2323 issued server command: /portal create name:portalsurvival command:ir_survival triggerblock:NETHER_PORTAL
+[18:05:59] [Server thread/INFO]: Alextu2323 issued server command: /sp area
+[18:06:10] [Server thread/INFO]: Alextu2323 issued server command: /sp selector
+[18:06:22] [Server thread/INFO]: Alextu2323 issued server command: /sp area
+[18:06:27] [Server thread/INFO]: Alextu2323 issued server command: /sp area
+[18:06:40] [Server thread/INFO]: Alextu2323 issued server command: /aportals
+[18:06:44] [Server thread/INFO]: Alextu2323 issued server command: /aportals selector
+[18:06:52] [Server thread/INFO]: Alextu2323 issued server command: /portal create name:portalsurvival command:ir_survival triggerblock:NETHER_PORTAL
+[18:07:07] [Server thread/INFO]: Alextu2323 issued server command: //replace air nether_portal
+[18:07:09] [Server thread/INFO]: Alextu2323 issued server command: /gamemode survival
+[18:07:10] [Server thread/INFO]: Starting InstantQueue 'IRSURVIVALCOMMAND_2_ExcitingCatalogue' with player 'Alextu2323'... 
+[18:07:10] [Server thread/INFO]: +- Queue 'IRSURVIVALCOMMAND_2_ExcitingCatalogue' Executing: (line 36) run SurvivalTeleportTask ---------+ 
+[18:07:10] [Server thread/INFO]: +> Executing 'RUN': script='s@survivalteleporttask (TASK)'   
+[18:07:10] [Server thread/INFO]: Starting InstantQueue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' with player 'Alextu2323'... 
+[18:07:10] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' Executing: (line 8) if <player.has_flag[ya_entro_al_survival]> ---------+ 
+[18:07:10] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' in queue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' while executing command 'GAMEMODE' in file 'scripts/SurvivalLogic.dsc' on line '17'!
+                 Error Message: Unknown command 'GAMEMODE'. 
+[18:07:10] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled tag <&b> with '', and cached result. 
+[18:07:10] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[18:07:10] [Server thread/INFO]: Filled tag <player.has_flag[ya_entro_al_survival]> with 'false'. 
+[18:07:10] [Server thread/INFO]: No part of the if command passed, running ELSE block. 
+[18:07:10] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' Executing: (line 15) flag player ya_entro_al_survival ---------+ 
+[18:07:10] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): player'  (ya_entro_al_survival:AUTO_SET:null) 
+[18:07:10] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' Executing: (line 16) execute as_server "rtp player <player.name> world world" ---------+ 
+[18:07:10] [Server thread/INFO]: Filled tag <player.name> with 'Alextu2323'. 
+[18:07:10] [Server thread/INFO]: +> Executing 'EXECUTE': type='AS_SERVER'  command='rtp player Alextu2323 world world'  silent='false'   
+[18:07:10] [Server thread/INFO]: [BetterRTP] CONSOLE executed: /rtp player Alextu2323 world world
+[18:07:10] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' Executing: (line 17) gamemode survival ---------+ 
+[18:07:10] [Server thread/INFO]: +- Executing command: GAMEMODE ---------+ 
+[18:07:10] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' in queue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' while executing command 'GAMEMODE' in file 'scripts/SurvivalLogic.dsc' on line '17' with player 'Alextu2323'!
+                 Error Message: GAMEMODE is an invalid command! Are you sure it loaded? 
+[18:07:10] [Server thread/INFO]: +---------------------+ 
+[18:07:10] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' Executing: (line 18) narrate "<&b>¡Primera vez! Teletransportando a un lugar nuevo..." ---------+ 
+[18:07:10] [Server thread/INFO]: +> Executing 'NARRATE': Narrating='¡Primera vez! Teletransportando a un lugar nuevo...'  Targets='[p@5cd00433-4317-372f-ad43-d3d58ef7d2ce (Alextu2323)]'   
+[18:07:10] [Server thread/INFO]: Completing queue 'SURVIVALTELEPORTTASK_3_ProposalNecessarily' in 19ms. 
+[18:07:10] [Server thread/INFO]: Completing queue 'IRSURVIVALCOMMAND_2_ExcitingCatalogue' in 23ms. 
+[18:07:10] [Server thread/INFO]: [BetterRTP] Seems like the biome %biome% does not exist! Try using the tab list!
+[18:07:10] [Server thread/INFO]: [BetterRTP] Teleporting... please wait while we find a safe location!
+[18:07:10] [Server thread/INFO]: [BetterRTP] Safe spot located! Loading chunks...
+[18:07:12] [Server thread/INFO]: [BetterRTP] Alextu2323 has been tp'd to x=-692 y=71 z=847
+[18:07:12] [Craft Scheduler Thread - 19 - BetterRTP/INFO]: [BetterRTP] -Removed a queue Location{world=CraftWorld{name=world},x=-691.5,y=71.0,z=847.5,pitch=7.369581,yaw=0.10290442}
+[18:07:32] [Server thread/INFO]: Alextu2323 issued server command: /spaw
+[18:07:34] [Server thread/INFO]: Alextu2323 issued server command: /spawn
+[18:07:45] [Server thread/INFO]: Starting InstantQueue 'IRSURVIVALCOMMAND_4_ChemicalsGold' with player 'Alextu2323'... 
+[18:07:45] [Server thread/INFO]: +- Queue 'IRSURVIVALCOMMAND_4_ChemicalsGold' Executing: (line 36) run SurvivalTeleportTask ---------+ 
+[18:07:45] [Server thread/INFO]: +> Executing 'RUN': script='s@survivalteleporttask (TASK)'   
+[18:07:45] [Server thread/INFO]: Starting InstantQueue 'SURVIVALTELEPORTTASK_5_InteractionNorth' with player 'Alextu2323'... 
+[18:07:45] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_5_InteractionNorth' Executing: (line 8) if <player.has_flag[ya_entro_al_survival]> ---------+ 
+[18:07:45] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[18:07:45] [Server thread/INFO]: Filled tag <player.has_flag[ya_entro_al_survival]> with 'true'. 
+[18:07:45] [Server thread/INFO]: If command passed, running block. 
+[18:07:45] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_5_InteractionNorth' Executing: (line 10) teleport <player.flag[posicion_guardada]> ---------+ 
+[18:07:45] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' in queue 'SURVIVALTELEPORTTASK_5_InteractionNorth' while executing command 'TELEPORT' in file 'scripts/SurvivalLogic.dsc' on line '10' with player 'Alextu2323'!
+                 Error Message: No flag named 'posicion_guardada' (did you forget to set it, or has it already expired? Or did you forget a 'has_flag' check?) 
+[18:07:45] [Server thread/INFO]: Additional Error Info: Tag <player.flag[posicion_guardada]> is invalid! 
+[18:07:45] [Server thread/INFO]: Additional Error Info: Unfilled or unrecognized sub-tag(s) 'flag[posicion_guardada]' for tag <player.flag[posicion_guardada]>! 
+[18:07:45] [Server thread/INFO]: Additional Error Info: The returned value from initial tag fragment 'player' was: 'p@5cd00433-4317-372f-ad43-d3d58ef7d2ce (Alextu2323)'. 
+[18:07:45] [Server thread/INFO]: Additional Error Info: Almost matched but failed (possibly bad input?): flag 
+[18:07:45] [Server thread/INFO]: +> Executing 'TELEPORT': entities='player.flag[posicion_guardada]'  cause='PLUGIN'  relative='false'   
+[18:07:45] [Server thread/INFO]: +> [LocationTag] Minor: valueOf LocationTag returning null, not formatted as a LocationTag: player.flag[posicion_guardada] 
+[18:07:45] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' in queue 'SURVIVALTELEPORTTASK_5_InteractionNorth' while executing command 'TELEPORT' in file 'scripts/SurvivalLogic.dsc' on line '10' with player 'Alextu2323'!
+                 Error Message: Woah! Invalid arguments were specified!
+                 Location or entity list missing or invalid for Teleport command 
+[18:07:45] [Server thread/INFO]: +> [CommandExecutor] Usage: teleport (<entity>|...) [<location>] (cause:<cause>) (entity_options:<option>|...) (relative) (relative_axes:<axis>|...) 
+[18:07:45] [Server thread/INFO]: +> [CommandExecutor] (Attempted: TELEPORT <player.flag[posicion_guardada]>) 
+[18:07:45] [Server thread/INFO]: +---------------------+ 
+[18:07:45] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_5_InteractionNorth' Executing: (line 11) gamemode survival ---------+ 
+[18:07:45] [Server thread/INFO]: +- Executing command: GAMEMODE ---------+ 
+[18:07:45] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' in queue 'SURVIVALTELEPORTTASK_5_InteractionNorth' while executing command 'GAMEMODE' in file 'scripts/SurvivalLogic.dsc' on line '11' with player 'Alextu2323'!
+                 Error Message: GAMEMODE is an invalid command! Are you sure it loaded? 
+[18:07:45] [Server thread/INFO]: +---------------------+ 
+[18:07:45] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_5_InteractionNorth' Executing: (line 12) narrate "<&a>¡Bienvenido de nuevo a tu aventura!" ---------+ 
+[18:07:45] [Server thread/INFO]: +> Executing 'NARRATE': Narrating='¡Bienvenido de nuevo a tu aventura!'  Targets='[p@5cd00433-4317-372f-ad43-d3d58ef7d2ce (Alextu2323)]'   
+[18:07:45] [Server thread/INFO]: Completing queue 'SURVIVALTELEPORTTASK_5_InteractionNorth' in 7ms. 
+[18:07:45] [Server thread/INFO]: Completing queue 'IRSURVIVALCOMMAND_4_ChemicalsGold' in 9ms. 
+[18:07:51] [Server thread/INFO]: Alextu2323 lost connection: Disconnected
+[18:07:51] [Server thread/INFO]: Running script event 'PlayerQuits', event='on player quits' for script 'GUARDARPOSICIONALSALIR' 
+[18:07:51] [Server thread/INFO]: Starting InstantQueue 'GUARDARPOSICIONALSALIR_6_GoldenWellness' with player 'Alextu2323'... 
+[18:07:51] [Server thread/INFO]: +- Queue 'GUARDARPOSICIONALSALIR_6_GoldenWellness' Executing: (line 26) if <player.world.name> == world ---------+ 
+[18:07:51] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[18:07:51] [Server thread/INFO]: Filled tag <player.world.name> with 'spawn'. 
+[18:07:51] [Server thread/INFO]: Comparing if spawn EQUALS world ... false 
+[18:07:51] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[18:07:51] [Server thread/INFO]: Completing queue 'GUARDARPOSICIONALSALIR_6_GoldenWellness' in 4ms. 
+[18:07:51] [Server thread/INFO]: [voicechat] Disconnecting client Alextu2323
+[18:07:51] [Server thread/INFO]: Alextu2323 left the game
+[18:07:54] [User Authenticator #1/INFO]: UUID of player Alextu2323 is 5cd00433-4317-372f-ad43-d3d58ef7d2ce
+[18:07:54] [Server thread/INFO]: Running script event 'PlayerJoins', event='on player joins' for script 'FORZARSPAWNALENTRAR' 
+[18:07:54] [Server thread/INFO]: Starting InstantQueue 'FORZARSPAWNALENTRAR_7_CatholicPose' with player 'Alextu2323'... 
+[18:07:54] [Server thread/INFO]: +- Queue 'FORZARSPAWNALENTRAR_7_CatholicPose' Executing: (line 5) wait 1s ---------+ 
+[18:07:54] [Server thread/INFO]: +> Executing 'WAIT': delay='d@1s (1s)'  mode='DELTA'   
+[18:07:54] [Server thread/INFO]: Forcing queue 'FORZARSPAWNALENTRAR_7_CatholicPose' into a timed queue... 
+[18:07:54] [Server thread/INFO]: Alextu2323 joined the game
+[18:07:54] [Server thread/INFO]: Alextu2323[/127.124.247.220:47113] logged in with entity id 22477 at ([spawn]33.70357943242603, 10.0, 39.25057041449611)
+[18:07:55] [Server thread/INFO]: +- Queue 'FORZARSPAWNALENTRAR_7_CatholicPose' Executing: (line 6) execute as_server "spawn <player.name>" ---------+ 
+[18:07:55] [Server thread/INFO]: Filled tag <player.name> with 'Alextu2323'. 
+[18:07:55] [Server thread/INFO]: +> Executing 'EXECUTE': type='AS_SERVER'  command='spawn Alextu2323'  silent='false'   
+[18:07:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /spawn Alextu2323
+[18:07:55] [Server thread/INFO]: Teleporting...
+[18:07:55] [Server thread/INFO]: Completing queue 'FORZARSPAWNALENTRAR_7_CatholicPose' in 949ms. 
+[18:08:06] [Server thread/INFO]: Starting InstantQueue 'IRSURVIVALCOMMAND_9_IncludedProceed' with player 'Alextu2323'... 
+[18:08:06] [Server thread/INFO]: +- Queue 'IRSURVIVALCOMMAND_9_IncludedProceed' Executing: (line 36) run SurvivalTeleportTask ---------+ 
+[18:08:06] [Server thread/INFO]: +> Executing 'RUN': script='s@survivalteleporttask (TASK)'   
+[18:08:06] [Server thread/INFO]: Starting InstantQueue 'SURVIVALTELEPORTTASK_10_ShMurray' with player 'Alextu2323'... 
+[18:08:06] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_10_ShMurray' Executing: (line 8) if <player.has_flag[ya_entro_al_survival]> ---------+ 
+[18:08:06] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[18:08:06] [Server thread/INFO]: Filled tag <player.has_flag[ya_entro_al_survival]> with 'true'. 
+[18:08:06] [Server thread/INFO]: If command passed, running block. 
+[18:08:06] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_10_ShMurray' Executing: (line 10) teleport <player.flag[posicion_guardada]> ---------+ 
+[18:08:06] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' in queue 'SURVIVALTELEPORTTASK_10_ShMurray' while executing command 'TELEPORT' in file 'scripts/SurvivalLogic.dsc' on line '10' with player 'Alextu2323'!
+                 Error Message: No flag named 'posicion_guardada' (did you forget to set it, or has it already expired? Or did you forget a 'has_flag' check?) 
+[18:08:06] [Server thread/INFO]: Additional Error Info: Tag <player.flag[posicion_guardada]> is invalid! 
+[18:08:06] [Server thread/INFO]: Additional Error Info: Unfilled or unrecognized sub-tag(s) 'flag[posicion_guardada]' for tag <player.flag[posicion_guardada]>! 
+[18:08:06] [Server thread/INFO]: Additional Error Info: The returned value from initial tag fragment 'player' was: 'p@5cd00433-4317-372f-ad43-d3d58ef7d2ce (Alextu2323)'. 
+[18:08:06] [Server thread/INFO]: Additional Error Info: Almost matched but failed (possibly bad input?): flag 
+[18:08:06] [Server thread/INFO]: +> Executing 'TELEPORT': entities='player.flag[posicion_guardada]'  cause='PLUGIN'  relative='false'   
+[18:08:06] [Server thread/INFO]: +> [LocationTag] Minor: valueOf LocationTag returning null, not formatted as a LocationTag: player.flag[posicion_guardada] 
+[18:08:06] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' in queue 'SURVIVALTELEPORTTASK_10_ShMurray' while executing command 'TELEPORT' in file 'scripts/SurvivalLogic.dsc' on line '10' with player 'Alextu2323'!
+                 Error Message: Woah! Invalid arguments were specified!
+                 Location or entity list missing or invalid for Teleport command 
+[18:08:06] [Server thread/INFO]: +> [CommandExecutor] Usage: teleport (<entity>|...) [<location>] (cause:<cause>) (entity_options:<option>|...) (relative) (relative_axes:<axis>|...) 
+[18:08:06] [Server thread/INFO]: +> [CommandExecutor] (Attempted: TELEPORT <player.flag[posicion_guardada]>) 
+[18:08:06] [Server thread/INFO]: +---------------------+ 
+[18:08:06] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_10_ShMurray' Executing: (line 11) gamemode survival ---------+ 
+[18:08:06] [Server thread/INFO]: +- Executing command: GAMEMODE ---------+ 
+[18:08:06] [Server thread/INFO]:  ERROR in script 'survivalteleporttask' in queue 'SURVIVALTELEPORTTASK_10_ShMurray' while executing command 'GAMEMODE' in file 'scripts/SurvivalLogic.dsc' on line '11' with player 'Alextu2323'!
+                 Error Message: GAMEMODE is an invalid command! Are you sure it loaded? 
+[18:08:06] [Server thread/INFO]: +---------------------+ 
+[18:08:06] [Server thread/INFO]: +- Queue 'SURVIVALTELEPORTTASK_10_ShMurray' Executing: (line 12) narrate "<&a>¡Bienvenido de nuevo a tu aventura!" ---------+ 
+[18:08:06] [Server thread/INFO]: +> Executing 'NARRATE': Narrating='¡Bienvenido de nuevo a tu aventura!'  Targets='[p@5cd00433-4317-372f-ad43-d3d58ef7d2ce (Alextu2323)]'   
+[18:08:06] [Server thread/INFO]: Completing queue 'SURVIVALTELEPORTTASK_10_ShMurray' in 5ms. 
+[18:08:06] [Server thread/INFO]: Completing queue 'IRSURVIVALCOMMAND_9_IncludedProceed' in 6ms. 
+[18:08:30] [Server thread/INFO]: Alextu2323 issued server command: /gamemode creative
+[18:09:33] [Server thread/INFO]: Alextu2323 issued server command: //pos2
+[18:10:15] [Server thread/INFO]: Alextu2323 issued server command: /mv create SPAWNSURVIVAL
+[18:24:40] [Server thread/INFO]: Alextu2323 issued server command: /rg create spawn_survival
+[18:24:54] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[18:25:18] [Server thread/INFO]: Alextu2323 issued server command: /rg create spawn_survival
+[18:25:30] [Server thread/INFO]: Alextu2323 issued server command: /rg create spawn_survival
+[18:25:52] [Server thread/INFO]: Alextu2323 issued server command: /rg flag spawn_survival
+[18:25:59] [Server thread/INFO]: Alextu2323 issued server command: /rg flag spawn_survival bulid
+[18:26:07] [Server thread/INFO]: Alextu2323 issued server command: /rg flag -w "world" spawn_survival build deny
+[18:26:24] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[18:26:29] [Server thread/INFO]: Alextu2323 issued server command: /rg flag -w "world" spawn_survival build allow
+[18:26:54] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[18:26:58] [Server thread/ERROR]: Could not pass event InventoryCreativeEvent to ItemEditor v2.1.0
+java.lang.IncompatibleClassChangeError: Found class org.bukkit.inventory.InventoryView, but interface was expected
+	at at.dumphey.itemeditor.ui.UiManager.onInventoryClick(UiManager.java:20) ~[ItemEditor.jar:?]
+	at at.dumphey.itemeditor.events.InventoryClickListener.onClick(InventoryClickListener.java:17) ~[ItemEditor.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor327.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleSetCreativeModeSlot(ServerGamePacketListenerImpl.java:3449) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:18) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:12) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[18:26:59] [Server thread/ERROR]: Could not pass event InventoryCreativeEvent to ItemEditor v2.1.0
+java.lang.IncompatibleClassChangeError: Found class org.bukkit.inventory.InventoryView, but interface was expected
+	at at.dumphey.itemeditor.ui.UiManager.onInventoryClick(UiManager.java:20) ~[ItemEditor.jar:?]
+	at at.dumphey.itemeditor.events.InventoryClickListener.onClick(InventoryClickListener.java:17) ~[ItemEditor.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor327.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleSetCreativeModeSlot(ServerGamePacketListenerImpl.java:3449) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:18) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:12) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[18:26:59] [Server thread/ERROR]: Could not pass event InventoryCreativeEvent to ItemEditor v2.1.0
+java.lang.IncompatibleClassChangeError: Found class org.bukkit.inventory.InventoryView, but interface was expected
+	at at.dumphey.itemeditor.ui.UiManager.onInventoryClick(UiManager.java:20) ~[ItemEditor.jar:?]
+	at at.dumphey.itemeditor.events.InventoryClickListener.onClick(InventoryClickListener.java:17) ~[ItemEditor.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor327.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleSetCreativeModeSlot(ServerGamePacketListenerImpl.java:3449) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:18) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:12) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[18:26:59] [Server thread/ERROR]: Could not pass event InventoryCreativeEvent to ItemEditor v2.1.0
+java.lang.IncompatibleClassChangeError: Found class org.bukkit.inventory.InventoryView, but interface was expected
+	at at.dumphey.itemeditor.ui.UiManager.onInventoryClick(UiManager.java:20) ~[ItemEditor.jar:?]
+	at at.dumphey.itemeditor.events.InventoryClickListener.onClick(InventoryClickListener.java:17) ~[ItemEditor.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor327.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleSetCreativeModeSlot(ServerGamePacketListenerImpl.java:3449) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:18) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:12) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[18:26:59] [Server thread/ERROR]: Could not pass event InventoryCreativeEvent to ItemEditor v2.1.0
+java.lang.IncompatibleClassChangeError: Found class org.bukkit.inventory.InventoryView, but interface was expected
+	at at.dumphey.itemeditor.ui.UiManager.onInventoryClick(UiManager.java:20) ~[ItemEditor.jar:?]
+	at at.dumphey.itemeditor.events.InventoryClickListener.onClick(InventoryClickListener.java:17) ~[ItemEditor.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor327.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleSetCreativeModeSlot(ServerGamePacketListenerImpl.java:3449) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:18) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket.handle(ServerboundSetCreativeModeSlotPacket.java:12) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[18:27:04] [Server thread/INFO]: Alextu2323 lost connection: Disconnected
+[18:27:04] [Server thread/INFO]: Running script event 'PlayerQuits', event='on player quits' for script 'GUARDARPOSICIONALSALIR' 
+[18:27:04] [Server thread/INFO]: Starting InstantQueue 'GUARDARPOSICIONALSALIR_11_TeeContacting' with player 'Alextu2323'... 
+[18:27:04] [Server thread/INFO]: +- Queue 'GUARDARPOSICIONALSALIR_11_TeeContacting' Executing: (line 26) if <player.world.name> == world ---------+ 
+[18:27:04] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[18:27:04] [Server thread/INFO]: Filled tag <player.world.name> with 'world'. 
+[18:27:04] [Server thread/INFO]: Comparing if world EQUALS world ... true 
+[18:27:04] [Server thread/INFO]: If command passed, running block. 
+[18:27:04] [Server thread/INFO]: +- Queue 'GUARDARPOSICIONALSALIR_11_TeeContacting' Executing: (line 27) flag player posicion_guardada:<player.location> ---------+ 
+[18:27:04] [Server thread/INFO]: Filled tag <player.location> with 'l@-415.99349387890226, 65.77662661470326, 83.46958015309082, 7.580652, 303.566528, world'. 
+[18:27:04] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): player'  (posicion_guardada:SET:l@-415.99349387890226,65.77662661470326,83.46958015309082,7.580652,303.566528,world) 
+[18:27:04] [Server thread/INFO]: Completing queue 'GUARDARPOSICIONALSALIR_11_TeeContacting' in 3ms. 
+[18:27:04] [Server thread/INFO]: [voicechat] Disconnecting client Alextu2323
+[18:27:04] [Server thread/INFO]: Alextu2323 left the game
+[18:27:24] [Server thread/INFO]: Stopping the server
+[18:27:24] [Server thread/INFO]: Stopping server
+[18:27:24] [Server thread/INFO]: [PlayerKits2] Disabling PlayerKits2 v1.18.3
+[18:27:24] [Server thread/INFO]: [PlayerKits²] Has been disabled! Version: 1.18.3
+[18:27:24] [Server thread/INFO]: [AnimatedScoreboard] Disabling AnimatedScoreboard v0.3.7
+[18:27:24] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.12.0
+[18:27:24] [Server thread/INFO]: [ItemEditor] Disabling ItemEditor v2.1.0
+[18:27:24] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v5.2
+[18:27:24] [Server thread/INFO]: [EpicRename] Disabling EpicRename v3.12.1
+[18:27:24] [Server thread/INFO]: [EpicRename] Plugin Disabled.
+[18:27:24] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v2.8.0
+[18:27:24] [Server thread/INFO]: [AdvancedPortals] Advanced portals are being disabled!
+[18:27:24] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[18:27:24] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[18:27:24] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[18:27:24] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.2.3
+[18:27:24] [Server thread/INFO]: [Multiverse-Portals] - Disabled
+[18:27:24] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+43-9f57b3e
+[18:27:24] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.35
+[18:27:24] [Server thread/INFO]: [PowerRanks] Disabling PowerRanks v1.10.9R2
+[18:27:24] [Server thread/INFO]: [PowerRanks] Disabled PowerRanks v1.10.9R2
+[18:27:24] [Server thread/INFO]: [Denizen] Disabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[18:27:24] [Server thread/INFO]: [Denizen]  v1.2.8-SNAPSHOT (build 1795-REL) disabled.
+[18:27:24] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
+[18:27:24] [Server thread/INFO]: [XConomy] XConomy successfully disabled
+[18:27:24] [Server thread/INFO]: [BetterRTP] Disabling BetterRTP v3.6.8
+[18:27:24] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.23
+[18:27:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+43-9f57b3e
+[18:27:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:27:24] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[18:27:24] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[18:27:24] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.1.2
+[18:27:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[18:27:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:27:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[18:27:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:27:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[18:27:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:27:24] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:27:25] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:27:25] [Server thread/INFO]: Saving players
+[18:27:25] [Server thread/INFO]: Saving worlds
+[18:27:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:27:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:27:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:27:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:27:25] [Server thread/INFO]: [ChunkHolderManager] Saved 232 block chunks, 118 entity chunks, 0 poi chunks in world 'world' in 0.33s
+[18:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:27:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:27:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 12 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[18:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:27:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:27:27] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[18:27:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:27:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
+[18:27:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[18:27:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[18:27:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[18:27:28] [Server thread/INFO]: [ChunkHolderManager] Saved 938 block chunks, 16 entity chunks, 0 poi chunks in world 'spawn' in 0.22s
+[18:27:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[18:27:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:27:30] [Server thread/INFO]: Flushing Chunk IO
+[18:27:30] [Server thread/INFO]: Closing Thread Pool
+[18:27:30] [Server thread/INFO]: Closing Server

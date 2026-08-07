@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.13.234.252
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1780774577469
+  login: 1780774570665
+money: '0'
+last-account-name: AlextupatuYT
+lastlocation:
+  world: de9e47ef-12bc-4d22-95b9-46d014745871
+  world-name: world
+  x: -238.5
+  y: 64.0
+  z: 272.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: e54d57bf-98df-4633-b736-4ae17a2713a8
+  world-name: spawn
+  x: 36.252157291074404
+  y: 13.126182465150945
+  z: -20.286453335594164
+  yaw: 139.720458984375
+  pitch: -7.636965274810791

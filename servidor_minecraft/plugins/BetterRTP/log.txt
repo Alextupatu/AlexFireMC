@@ -1,0 +1,24 @@
+2026-08-07 18:02:26 [INFO]: Cooldown = 600
+2026-08-07 18:02:26 [INFO]: Loading Overrides...
+2026-08-07 18:02:26 [INFO]: Loading World Types...
+2026-08-07 18:02:26 [INFO]: - World Type for 'world' set to 'NORMAL'
+2026-08-07 18:02:26 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2026-08-07 18:02:26 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2026-08-07 18:02:26 [INFO]: Loading Defaults...
+2026-08-07 18:02:26 [INFO]: Loading Custom Worlds...
+2026-08-07 18:02:26 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2026-08-07 18:02:26 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2026-08-07 18:02:30 [INFO]: Database COOLDOWN:world configured and loaded!
+2026-08-07 18:02:30 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2026-08-07 18:02:30 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2026-08-07 18:02:30 [INFO]: Database COOLDOWN:spawn configured and loaded!
+2026-08-07 18:02:30 [INFO]: Database QUEUE:Queue configured and loaded!
+2026-08-07 18:02:30 [INFO]: Database PLAYERS:Players configured and loaded!
+2026-08-07 18:02:30 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2026-08-07 18:02:31 [INFO]: Attempting to queue up some more safe locations...
+2026-08-07 18:02:32 [WARNING]: Seems like the world `spawn` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- spawn: NETHER`
+2026-08-07 18:03:31 [INFO]: Max attempts to create a Queue reached for default_spawn (amount: 0)
+2026-08-07 18:03:31 [INFO]: Queueing paused, max queue limit reached!
+2026-08-07 18:07:10 [INFO]: CONSOLE executed: /rtp player Alextu2323 world world
+2026-08-07 18:07:12 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-691.5,y=71.0,z=847.5,pitch=7.369581,yaw=0.10290442}
+2026-08-07 18:27:24 [INFO]: Disabling BetterRTP v3.6.8

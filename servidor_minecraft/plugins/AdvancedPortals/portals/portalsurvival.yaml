@@ -1,0 +1,17 @@
+args:
+  name:
+  - portalsurvival
+  triggerblock:
+  - NETHER_PORTAL
+  command:
+  - ir_survival
+maxLoc:
+  posX: 36
+  posY: 14
+  posZ: 42
+  worldName: spawn
+minLoc:
+  posX: 31
+  posY: 10
+  posZ: 42
+  worldName: spawn
